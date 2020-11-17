@@ -1,0 +1,12 @@
+.idea
+.DS_Store
+*.png
+*.jpg
+*.bmp
+*.tiff
+*.pyc
+*.rdb
+*.log
+build
+dist
+resop.egg-info

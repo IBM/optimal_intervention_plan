@@ -1,0 +1,40 @@
+{
+  "patches": {
+
+    "patch_name_1": {
+      "name": "ABCD",
+      "beta": 2,
+      "gamma": 4,
+      "numInterventions": 4,
+      "numPieces": 5,
+      "budget": 1000000,
+      "efficacyBeta": [
+        0.6,
+        0.3,
+        0.4,
+        0
+      ],
+      "efficacyGamma": [
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "initialDollars": [
+         0,
+        10000,
+        100,
+        100000
+      ],
+      "dollars": [
+        24000000,
+        100000,
+        2500,
+        10000000
+      ]
+    }
+  }
+}
+
+			
+	

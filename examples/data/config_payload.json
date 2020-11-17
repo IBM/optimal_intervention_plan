@@ -1,0 +1,30 @@
+/* example data
+ required:
+    run_id - a unique id for this run, must not exist yet in database
+    geography - HASC code of the main geography
+    admin_level - the admin level at which optimisation should occur
+    disease - the disease name (matched to the database)
+    budget - user input, the total spend available
+optional:
+    intervention_budgets
+        - optional upper and lower bounds for interventions - total budget for the intervention
+        - the names of all elements in intervention_budgets need to be interventions that exist for the given disease
+*/
+
+
+{
+  "run_id": "Run1",
+  "geography": "TW",
+  "admin_level": 2,
+  "disease": "Dengue",
+  "budget": 1000000,
+  "intervention_budgets": {
+    "Vaccinate": {
+      "upper": 2000000
+    },
+    "Targetted larviciding": {
+      "lower": 100000,
+      "upper": 4000000
+    }
+  }
+}
