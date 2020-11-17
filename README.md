@@ -63,3 +63,10 @@ If the script was successful you should see an output on the console similar to 
 ---
 * Initial version.
 # optimal_intervention_plan
+
+## Contributors
+  * Hamideh Anjomshoa
+  * Stefan von Cavallar,
+  * Olivia Smith,
+  * Roslyn Hickson
+  * Manoj Gambhier. 
